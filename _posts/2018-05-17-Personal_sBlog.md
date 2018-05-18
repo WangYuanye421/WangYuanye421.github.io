@@ -23,9 +23,7 @@ tags:
         <p style="text-indent:2em;">
             查收邮件，是否有新的需求.....
         </p>
-        <input type="checkbox" checked>
         <br>
-        <input type="checkbox" checked>
-        <p>晚上才能挤出一丢丢时间看书！！！</p>
+        <p>晚上才能挤出一丢丢时间搞一些新技术...</p>
     </div>
 </html>
