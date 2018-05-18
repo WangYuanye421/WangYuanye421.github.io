@@ -5,7 +5,7 @@ subtitle:   使用 GitHub + jekyll 搭建个人博客
 date:       2018-03-06
 author:     Yuanye.Wang
 header-img: img/post-bg01-0306.jpg
-catalog: true
+catalog: false
 tags:
     - 生活
 ---

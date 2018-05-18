@@ -1,6 +1,7 @@
 ---
 layout: page
-description: "this is a description in the page of index."
+description: "I put a flower in your hair~"
+
 ---
 <!--博客主页-->
 {% for post in paginator.posts %}
@@ -19,9 +20,9 @@ description: "this is a description in the page of index."
         </div>
     </a>
     <p class="post-meta">
-        <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span>
+        <span class="meta">Posted by {% if post.author %}{{ post.author }}{% else %}Yuanye.Wang{% endif %}</span>
         <br>
-        <span>on {{ page.date | date: "%B %-d, %Y" }}</span>
+        <span class="meta">On {% if post.date %}{{ post.date | date: "%B %-d, %Y" }}{% else %}2018 someday{% endif %}</span>
     </p>
 </div>
 <hr>

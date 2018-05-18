@@ -1,7 +1,7 @@
 # Site settings
 title: Yuanye's Blog
 SEOTitle: 原野的博客 | Go_go~
-header-img: img/post-bg-desk.jpg
+header-img: img/layout-bg-post.jpg
 email: 546792341@qq.com
 description: "Every failure is leading towards success."
 keyword: "personal,blog"
@@ -62,13 +62,13 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 656c03bb4ccbe246ba00   #github Application，生成的clientID
-  clientSecret: 4aad8389f1714e3fb10cb6f32977bac708a082c9  #同上
-  repo: WangYuanye421.github.io    #仓库名称
-  owner: WangYuanye421    #github用户名
-  admin: WangYuanye421
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  enable:true
+  clientID:656c03bb4ccbe246ba00
+  clientSecret:4aad8389f1714e3fb10cb6f32977bac708a082c9
+  repo:WangYuanye421.github.io
+  owner:WangYuanye421
+  admin:WangYuanye421
+  distractionFreeMode:true
 
 
 # 统计
