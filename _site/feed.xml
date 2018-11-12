@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuanye's Blog</title>
+    <description>Every failure is leading towards success.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 18 Sep 2018 20:42:32 +0800</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 20:42:32 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>警醒的几句</title>
+        <description>&lt;html&gt;
+    &lt;div&gt;
+        &lt;p style=&quot;text-indent:2em;&quot;&gt;
+           努力只是说明你拼命在走，跟你能不能向上走，关系不大.
+        &lt;/p&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;p style=&quot;text-indent:2em;&quot;&gt;
+            对你更重要的是，要去解决更多的问题，而不是如何最好地解决一个问题.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/09/18/Personal'sBlog/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/09/18/Personal'sBlog/</guid>
+        
+        <category>生活</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
