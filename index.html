@@ -1,0 +1,111 @@
+---
+layout: page
+title: "个人主页"
+description: "Now , You Can See Me."
+header-img: "img/img-about-bg.jpg"
+---
+
+<!-- 个人资料页面-->
+<!-- Chinese Version -->
+<div class="zh post-container">
+    <h5>职业&nbsp;|&nbsp;岗位</h5>
+    <blockquote>
+        <p>Java开发 &nbsp;&nbsp;<i>[6年]</i></p>
+    </blockquote>
+
+    <hr>
+    <h5>技术栈</h5>
+    <blockquote>
+        <p>Java基础</p>
+        <ul>
+            <li>Spring框架</li>
+            <li>JDK源码</li>
+            <li>多线程</li>
+            <li>JVM</li>
+        </ul>
+
+        <p>熟悉常用数据库</p>
+        <ul>
+            <li><a href="#">mySQL</a></li>
+            <li><a href="#">Oracle</a></li>
+        </ul>
+
+
+        <p>熟悉常用框架</p>
+        <ul>
+            <li><a href="#">Tomcat</a></li>
+            <li><a href="#">Mybatis</a></li>
+            <li><a href="#">springMVC</a></li>
+        </ul>
+
+        <p>熟悉常用中间件</p>
+        <ul>
+            <li><a href="#">Redis</a></li>
+            <li><a href="#">MQ</a></li>
+            <li><a href="#">注册中心</a></li>
+        </ul>
+
+
+        <p>熟悉分布式微服务架构</p>
+        <p>了解前端相关知识</p>
+        <ul>
+            <li><p>JS | JQuery</p></li>
+            <li><p>HTML</p></li>
+            <li><p>CSS</p></li>
+            <li><p>Bootstrap Table</p></li>
+            <li><p>Vue | Avalon</p></li>
+        </ul>
+    </blockquote>
+
+    <h5>教育&nbsp;|&nbsp;专业</h5>
+    <blockquote>
+        <p>本科 | 阜阳师范学院.计算机科学与技术</p>
+    </blockquote>
+
+    <h5>爱好</h5>
+    <blockquote>
+        <p>健身 | 电影</p>
+    </blockquote>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+

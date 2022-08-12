@@ -1,0 +1,106 @@
+# Site settings
+title: yuanye.wang
+SEOTitle: 原野 | Go_go~
+header-img: img/layout-bg-post.jpg
+email: yuanye.wang@qq.com
+description: ""
+keyword: "personal,blog"
+url: "http://WangYuanye421.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/WangYuanye421/WangYuanye421.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "联系我 :"
+sidebar-avatar: /img/apes.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# 个人网站配置
+RSS: false
+#weibo_username:     2939327165
+#zhihu_username:     wang-yuan-ye-ahhn
+github_username: WangYuanye421
+yuque_username: yuanye-wang
+#jianshu_username:   user_id
+csdn_username: wyy546792341
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 5
+paginate_path: "page:num"
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+#anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable:true
+  clientID:656c03bb4ccbe246ba00
+  clientSecret:4aad8389f1714e3fb10cb6f32977bac708a082c9
+  repo:WangYuanye421.github.io
+  owner:WangYuanye421
+  admin:WangYuanye421
+  distractionFreeMode:true
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: c6a1d2be6018f0f75b893387be219528
+
+# Google Analytics
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "LEARN",
+        href: "#"
+    }
+]
