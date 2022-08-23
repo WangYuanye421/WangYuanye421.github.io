@@ -16,7 +16,7 @@
     <!-- ===========================
     SITE TITLE
     =========================== -->
-    <title>Home</title>
+    <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
 
     <!-- ===========================
     FAVICONS
