@@ -33,8 +33,6 @@ csdn_username: wyy546792341
 permalink: pretty
 paginate: 5
 paginate_path: "page:num"
-#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-#anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
@@ -53,22 +51,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
-
-# Gitalk
-gitalk:
-  enable:true
-  clientID:656c03bb4ccbe246ba00
-  clientSecret:4aad8389f1714e3fb10cb6f32977bac708a082c9
-  repo:WangYuanye421.github.io
-  owner:WangYuanye421
-  admin:WangYuanye421
-  distractionFreeMode:true
 
 
 # 统计
