@@ -1,25 +1,27 @@
+## gem  bundle  jekyll 三者的关系
 
-> * **参考资料及致谢**  
-> 1. [博客搭建教程](http://qiubaiying.top/2017/02/06/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
-> 2. [jekyll中文文档](https://www.jekyll.com.cn/docs/home/)
-> 3. [杂七杂八的乱搜](https://www.baidu.com/)
+### gem
+gem 是 Ruby 语言的包管理工具, 通过 gem install 命令安装指定的 gem 包
+比如gem install jekyll
 
-> * **问题总结**
-> 1. 新建与GitHub用户名同名的.github.io仓库，clone到本地时，git clone ****.io;
-> 2. 博客主页没有博文列表，_config.yml中分页功能未设置;
-> 3. 博文 头部page对象属性设置:
+### bundle
+bundler 是用于 Ruby 项目依赖管理的工具，主要通过 Gemfile 文件管理项目所需的 gem。它确保项目在任何环境下使用相同的 gem 版本，避免依赖冲突。
+使用 bundle install 命令来安装 Gemfile 中定义的 gem,比如 bundle install
 
-```yml
-layout:     #使用页面布局
-title:      #博文标题
-subtitle:   #博文副标题
-date:       #日期 ，格式：2017-02-15
-author:     #作者
-header-img: #文章标题背景图
-catalog:    #开启分类 ture/false
-tags:       #添加博文标签
+### Jekyll
+jekyll 是一个静态网站生成器，是基于 Ruby 的一个 gem。它将 Markdown 文件、YAML 数据等转换为静态的 HTML 网站.
+Jekyll 本身是一个 gem，通常通过 gem 或 bundle 安装
+
+
+```shell
+# 创建新的站点 (脚手架)
+jekyll new my-site
+cd my-site
+# 构建项目,安装所需的gems
+bundle install
+# 启动jekyll
+bundle exec jekyll serve
 ```
-<html>
-<em style="color:blue;">edited on 2018-03-06</em>
-<a href='https://wangyuanye421.github.io/' target='_blank'>博客地址</a>
-</html>
+
+### 注意事项
+- jekyll 目录结构中,_site是根据markdown文件动态生成,git管理项目时需要排除
