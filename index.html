@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!-- ===========================
         THEME INFO
         =========================== -->
@@ -20,29 +18,28 @@
         <!-- ===========================
         FAVICONS
         =========================== -->
-        <link rel="icon" href="imgs/favicon.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="imgs/apple-touch-icon-ipad-retina.png"/>
-        <link rel="apple-touch-icon" sizes="114x114" href="imgs/apple-touch-icon-iphone-retina.png"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="imgs/apple-touch-icon-ipad.png"/>
-        <link rel="apple-touch-icon" sizes="57x57" href="imgs/apple-touch-icon-iphone.png"/>
-
+        <link rel="icon" href="imgs/favicon.png" />
         <!-- ===========================
         STYLESHEETS
         =========================== -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
 
         <!-- ===========================
         FONTS & ICONS
         =========================== -->
-        <link href='https://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'/>
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="fonts/JetBrainsSans-Regular.woff2" rel="stylesheet"/>
+        <link href="fonts/JetBrainsSans.woff2" rel="stylesheet"/>
 
 
         <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <link href="https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans.woff2"/>
+        <link href="https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Regular.woff2"/>
         <![endif]-->
         <style>
             .hover-link {
@@ -66,7 +63,6 @@
             .hover-link:hover img {
                 display: block;
             }
-
         </style>
     </head>
 
@@ -75,9 +71,8 @@
         <!--头像-->
         <div id="header" class="row">
             <div class="col-sm-2">
-                <img class="propic" src="imgs/apes.png" alt="">
+                <img class="propic" src="imgs/apes.png" alt="" />
             </div>
-
             <div class="col-sm-10">
                 <div class="cv-title">
                     <div class="row">
@@ -96,13 +91,12 @@
                             <h2>本科 . 计算机科学与技术 &nbsp;&nbsp;2011-2015</h2>
                         </div>
                     </div>
-
                 </div><!-- Title end-->
 
             </div>
         </div>
 
-        <hr class="firsthr">
+        <hr class="firsthr" />
 
         <!--内容正文-->
         <div class="col-md-12 mainleft">
@@ -113,7 +107,7 @@
                 </div><!--icon end-->
 
                 <div class="col-sm-11">
-                    <h3>开源社区 </h3>
+                    <h3>技术社区 </h3>
                     <!--社交/联系方式-->
                     <div class="row">
                         <!--第 1 列-->
@@ -152,13 +146,26 @@
                     <span class="secicon fa fa-gift"></span>
                 </div><!--icon end-->
                 <div class="col-sm-11">
-                    <h3>一些作品</h3>
+                    <h3>开源作品</h3>
                     <div class="row">
                         <h4>IDEA插件</h4>
                     </div>
-                    <div class="row">
-                        <div id="command_assist" class="col-md-6"></div>
-                        <div id="mark_source_code" class="col-md-6"></div>
+                    <div class="row" style="height: 180px;">
+                        <div class="col-md-3">
+                            <a class="hover-link" target="_blank" href="https://plugins.jetbrains.com/plugin/25225-command-assist">
+                                <span class="social fa fa-bookmark"></span>
+                                <img src="imgs/command_assist.png" alt="命令管理工具" />
+                                Command Assist
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="hover-link" target="_blank" href="https://plugins.jetbrains.com/plugin/25346-mark-source-code">
+                                <span class="social fa fa-bookmark"></span>
+                                <img src="imgs/mark_source_code.png" alt="源码阅读插件" />
+                                Mark Source Code
+                            </a>
+                        </div>
+
                     </div>
 
                     <div class="row">
@@ -166,9 +173,9 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3">
-                            <a href="#" class="hover-link">
+                            <a class="hover-link">
                                 <span class="social fa fa-bookmark"></span>
-                                <img src="imgs/mini-app.png" alt="小程序">
+                                <img src="imgs/mini-app.png" alt="小程序" />
                                 靓仔创意头像
                             </a>
                         </div>
@@ -176,93 +183,7 @@
                 </div>
             </div>
             <hr>
-
         </div>
-        <!--侧边栏-->
-        <!--<div class="col-md-4 mainright">
-            <div class="row">
-                <div class="col-sm-1 col-md-2 mobmid">
-                    <span class="secicon fa fa-magic"></span>
-                </div>&lt;!&ndash;icon end&ndash;&gt;
-                <div class="col-sm-11 col-md-10">
-                    <h3 class="mobmid">一些作品 </h3>
-                    <ul>
-                        <li><a target="_blank" class="hover-link"
-                               href="https://plugins.jetbrains.com/plugin/25225-command-assist">
-                            <span class="social fa fa-gift"></span>
-                            <img src="imgs/command_assist.png" alt="Command Assist">
-                            Command Assist</a>
-                        </li>
-                        <li><a target="_blank" class="hover-link"
-                               href="https://plugins.jetbrains.com/plugin/25346-mark-source-code"><span
-                                class="social fa fa-gift"></span>
-                            <img src="imgs/mark_source_code.png" alt="Mark Source Code">
-                            Mark Source Code</a></li>
-                        <li>
-                            <a href="#" class="hover-link">
-                                <span class="social fa fa-gift"></span>
-                                <img src="imgs/mini-app.png" alt="小程序">
-                                靓仔创意头像
-                            </a>
-                        </li>
-
-                    </ul>
-                    &lt;!&ndash;<p>Photoshop</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div>&lt;!&ndash;skill end&ndash;&gt;
-
-
-                    <p>Illustrator</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div>&lt;!&ndash;skill end&ndash;&gt;
-
-                    <p>InDesign</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                            <span class="sr-only">60% Complete (warning)</span>
-                        </div>
-                    </div>&lt;!&ndash;skill end&ndash;&gt;
-
-                    <p>Flash</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                            <span class="sr-only">30% Complete (danger)</span>
-                        </div>
-                    </div>&ndash;&gt;
-                </div>&lt;!&ndash;info end&ndash;&gt;
-            </div>&lt;!&ndash;tech skills end&ndash;&gt;
-
-            &lt;!&ndash;个人爱好&ndash;&gt;
-            &lt;!&ndash;<div class="row mobmid">
-                <div class="col-sm-1 col-md-2">
-                    <span class="secicon fa fa-angellist"></span>
-                </div>&lt;!&ndash;icon end&ndash;&gt;
-
-                <div class="col-sm-11 col-md-10 ">
-                    <h3>个人爱好</h3>
-                    <div class="award">
-                        <ul>
-                            <li>稀奇古怪技术爱好者</li>
-                            <li>没事瞎折腾先进个人</li>
-                            <li>上古时期健身教练员</li>
-                            <li>电影音乐舞蹈挑剔研究员</li>
-                            <li>三十年纯阳无极功😂</li>
-
-                        </ul>
-                        <blockquote>
-                            <span>🎉</span>更多成就收集中...
-                        </blockquote>
-                    </div>
-
-                </div>
-            </div>&ndash;&gt;
-        </div>-->
     </div>
 
     <footer class="text-center">
@@ -270,21 +191,9 @@
     </footer>
 
     <!--necessary scripts and plugins-->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/bootstrap5.3.3.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/evenfly.js"></script>
-    <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
-    <script src="https://plugins.jetbrains.com/static/versions/32058/polyfills.js"></script>
-    <script>
-        // Please, replace #yourelement with a real element id on your webpage
-        MarketplaceWidget.setupMarketplaceWidget('card', 25225, "#command_assist");
-    </script>
-    <script>
-        // Please, replace #yourelement with a real element id on your webpage
-        MarketplaceWidget.setupMarketplaceWidget('card', 25346, "#mark_source_code");
-    </script>
-
     </body>
-
 </html>

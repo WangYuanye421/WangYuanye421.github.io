@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ===========================
+        THEME INFO
+        =========================== -->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <!-- ===========================
+        SITE TITLE
+        =========================== -->
+        <title>原野 O_o</title>
+
+        <!-- ===========================
+        FAVICONS
+        =========================== -->
+        <link rel="icon" href="imgs/favicon.png" />
+        <!-- ===========================
+        STYLESHEETS
+        =========================== -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+
+        <!-- ===========================
+        FONTS & ICONS
+        =========================== -->
+        <link href='https://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'/>
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="fonts/JetBrainsSans-Regular.woff2" rel="stylesheet"/>
+        <link href="fonts/JetBrainsSans.woff2" rel="stylesheet"/>
+
+
+        <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <link href="https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans.woff2"/>
+        <link href="https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Regular.woff2"/>
+        <![endif]-->
+        <style>
+            .hover-link {
+                position: relative; /* 使图片相对于这个元素定位 */
+                text-decoration: none;
+                color: #0073e6;
+            }
+
+            /* 默认隐藏的图片 */
+            .hover-link img {
+                display: none;
+                position: absolute;
+                top: 20px; /* 图片显示的位置，可以根据需要调整 */
+                left: 0;
+                width: 150px; /* 设置图片的宽度 */
+                border: 1px solid #ccc;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            /* 当悬浮在链接上时，显示图片 */
+            .hover-link:hover img {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="container">
+        <!--头像-->
+        <div id="header" class="row">
+            <div class="col-sm-2">
+                <img class="propic" src="imgs/apes.png" alt="" />
+            </div>
+            <div class="col-sm-10">
+                <div class="cv-title">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h1>王原野 </h1>
+                            <!--<p class="signature">Yuanye.Wang</p>-->
+                        </div>
+                        <div class="col-sm-4 text-right dl-share">
+                            <!--                        <a class="a2a_dd btn btn-default" href=""><span class="fa fa-share "></span> Share</a>-->
+                            <a class="btn btn-success" href="mailto:yuanye.wang@foxmail.com"><span class="fa fa-envelope-o"></span> 联系我</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <h2>Java高级工程师 | 工作经验:8年 | 杭州</h2>
+                            <h2>本科 . 计算机科学与技术 &nbsp;&nbsp;2011-2015</h2>
+                        </div>
+                    </div>
+                </div><!-- Title end-->
+
+            </div>
+        </div>
+
+        <hr class="firsthr" />
+
+        <!--内容正文-->
+        <div class="col-md-12 mainleft">
+            <!--个人介绍-->
+            <div id="statement" class="row mobmid">
+                <div class="col-sm-1">
+                    <span class="secicon fa fa-location-arrow"></span>
+                </div><!--icon end-->
+
+                <div class="col-sm-11">
+                    <h3>技术社区 </h3>
+                    <!--社交/联系方式-->
+                    <div class="row">
+                        <!--第 1 列-->
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li><a target="_blank" href="https://github.com/WangYuanye421"><span
+                                        class="social fa fa-github"></span>GitHub</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--第 2 列-->
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li><a target="_blank" href="https://gitee.com/yuanye_wang"><span
+                                        class="social fa fa-code"></span>gitee</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--第 3 列-->
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li><a target="_blank" href="https://blog.csdn.net/wyy546792341?type=blog"><span
+                                        class="social fa fa-pencil-square"></span>CSDN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- header social end-->
+
+                </div><!--info end-->
+            </div>
+            <hr>
+            <!--教育 学历-->
+            <div id="education" class="row mobmid">
+                <div class="col-sm-1">
+                    <span class="secicon fa fa-gift"></span>
+                </div><!--icon end-->
+                <div class="col-sm-11">
+                    <h3>开源作品</h3>
+                    <div class="row">
+                        <h4>IDEA插件</h4>
+                    </div>
+                    <div class="row" style="height: 180px;">
+                        <div class="col-md-3">
+                            <a class="hover-link" target="_blank" href="https://plugins.jetbrains.com/plugin/25225-command-assist">
+                                <span class="social fa fa-bookmark"></span>
+                                <img src="imgs/command_assist.png" alt="命令管理工具" />
+                                Command Assist
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="hover-link" target="_blank" href="https://plugins.jetbrains.com/plugin/25346-mark-source-code">
+                                <span class="social fa fa-bookmark"></span>
+                                <img src="imgs/mark_source_code.png" alt="源码阅读插件" />
+                                Mark Source Code
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <h4>小程序</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a class="hover-link">
+                                <span class="social fa fa-bookmark"></span>
+                                <img src="imgs/mini-app.png" alt="小程序" />
+                                靓仔创意头像
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>Copyright &copy; 2022 Yuanye.Wang All rights reserved.</p>
+    </footer>
+
+    <!--necessary scripts and plugins-->
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/bootstrap5.3.3.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/evenfly.js"></script>
+    </body>
+</html>
